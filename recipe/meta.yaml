@@ -1,16 +1,16 @@
 {% set name = "xplugin" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
-source: 
+source:
   url: https://github.com/QuantStack/xplugin/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 4f2c74a5e0329824be182dbdac02cb55452d33c0077d551d1a3b4f02f0bc24f8
+  sha256: 172b742faa1cde2ff68ccf0d05bbb75c1651c98339c7f12cbf292a52c0ff3b77
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
